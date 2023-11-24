@@ -28,7 +28,7 @@ This set of Yew templates takes you on a detailed journey into web development w
 
 === Installation
 
-To use the notebooks in this repository, you need to set up your environment. Follow these steps to get started:
+To use the templates in this repository, you need to set up your environment. Follow these steps to get started:
 
 - Clone the repository to your local machine:
 
