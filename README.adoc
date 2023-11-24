@@ -37,7 +37,7 @@ To use the notebooks in this repository, you need to set up your environment. Fo
 git clone https://github.com/wiseaidev/rust-yew-book.git
 ----
 
-- Install the required dependencies and libraries. Make sure you have `Rust`, `trunk`, and `evcxr_jupyter` installed on your system.
+- Install the required dependencies and libraries. Make sure you have `Rust`, and `trunk` installed on your system.
 
 [source,sh]
 ----
@@ -78,11 +78,17 @@ Navigate to http://localhost:3000 to explore the currently running template.
 | TODO
 |
 ▪ Brief history and advantages of Rust in web development.
+
 ▪ Introduction to the YEW framework and its benefits.
+
 ▪ Setting up Rust and YEW development environment (installation, IDE setup).
+
 ▪ Creating a basic YEW project structure.
+
 ▪ Building a simple UI component with YEW.
+
 ▪ Styling and CSS integration in YEW.
+
 ▪ Handling user events and interactions in YEW.
 
 | link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]] link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]] link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]]
