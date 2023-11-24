@@ -1,0 +1,104 @@
+= Mastering Web Development with Rust and Yew for You.
+
+[cols="4"]
+
+|===
+
+| link:https://github.com/wiseaidev[image:https://img.shields.io/badge/Work%20In%20Progress-red?style=flat-square[Work In Progress]]
+
+| link:https://www.rust-lang.org/[image:https://img.shields.io/badge/Made%20with-Rust-1f425f.svg?logo=rust&logoColor=white[Made with Rust]]
+
+| link:https://yew.rs/[image:https://img.shields.io/badge/Made%20with-Yew-1f425f.svg?logo=ycombinator&logoColor=white[Made with Yew]]
+
+| link:https://reddit.com/submit?url=https://github.com/wiseaidev/rust-yew-book&amp;title=%F0%9F%93%9A%20Accompanying%20code%20snippets%20for%20mastering%20web%20development%20with%20rust%20and%20Yew%20book%20%F0%9F%9A%80[image:https://img.shields.io/badge/share%20on-reddit-red?style=flat-square&logo=reddit&amp;[Share On Reddit]]
+
+| link:https://news.ycombinator.com/submitlink?u=https://github.com/wiseaidev/rust-yew-book&amp;t=%F0%9F%93%9A%20Accompanying%20code%20snippets%20for%20mastering%20web%20development%20with%20rust%20and%20Yew%20book%20%F0%9F%9A%80[image:https://img.shields.io/badge/share%20on-hacker%20news-orange?style=flat-square&logo=ycombinator&amp;[Share On Ycombinator]]
+
+| link:https://twitter.com/share?url=https://github.com/wiseaidev/rust-yew-book&amp;text=%F0%9F%93%9A%20Accompanying%20code%20snippets%20for%20mastering%20web%20development%20with%20rust%20and%20Yew%20book%20%F0%9F%9A%80[image:https://img.shields.io/badge/share%20on-X-03A9F4?style=flat-square&logo=x&amp;[Share On X]]
+
+| link:https://www.facebook.com/sharer/sharer.php?u=https://github.com/wiseaidev/rust-yew-book[image:https://img.shields.io/badge/share%20on-meta-1976D2?style=flat-square&logo=meta&amp;[Share On Meta]]
+
+| link:https://www.linkedin.com/shareArticle?url=https://github.com/wiseaidev/rust-yew-book&amp;title=%F0%9F%93%9A%20Accompanying%20code%20snippets%20for%20mastering%20web%20development%20with%20rust%20and%20Yew%20book%20%F0%9F%9A%80[image:https://img.shields.io/badge/share%20on-linkedin-3949AB?style=flat-square&logo=linkedin&amp;[Share On Linkedin]]
+
+|===
+
+== Welcome
+
+This set of Yew templates takes you on a detailed journey into web development with Rust using the link:https://yew.rs[Yew framework]. With Yew at its core, you can explore the ins and outs of web development, making the most of Rust and the Yew framework. Supported by different Rust libraries, such as [TODO], you can effortlessly create landing pages and more complex websites using Rust and Yew. Whether you're an experienced web developer or a beginner, these templates offer a solid and useful tool for becoming proficient in web development with Rust and Yew.
+
+=== Installation
+
+To use the notebooks in this repository, you need to set up your environment. Follow these steps to get started:
+
+- Clone the repository to your local machine:
+
+[source,sh]
+----
+git clone https://github.com/wiseaidev/rust-yew-book.git
+----
+
+- Install the required dependencies and libraries. Make sure you have `Rust`, `trunk`, and `evcxr_jupyter` installed on your system.
+
+[source,sh]
+----
+# Install a Rust toolchain (e.g. nightly):
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --default-toolchain nightly
+
+# Install trunk:
+cargo install --locked trunk
+
+# Add the wasm32-unknown-unknown target to your Rust toolchain:
+rustup target add wasm32-unknown-unknown
+----
+
+- Navigate to the cloned repository:
+
+[source,sh]
+----
+cd rust-yew-book
+----
+
+- Navigate to a template folder and Run:
+
+[source,sh]
+----
+cd chapter-1/1-functional-component-with-props
+trunk serve --port 3000
+----
+
+Navigate to http://localhost:3000 to explore the currently running template.
+
+=== Chapters
+
+|===
+| ID | Chapter | NB Pages | Topics | Open on GitHub | Open on Netlify
+
+| 1
+| Introduction to Rust and YEW Framework
+| TODO
+|
+▪ Brief history and advantages of Rust in web development.
+▪ Introduction to the YEW framework and its benefits.
+▪ Setting up Rust and YEW development environment (installation, IDE setup).
+▪ Creating a basic YEW project structure.
+▪ Building a simple UI component with YEW.
+▪ Styling and CSS integration in YEW.
+▪ Handling user events and interactions in YEW.
+
+| link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]] link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]] link:./chapter-1/1-functional-component-with-props[image:https://img.shields.io/badge/open-Github-181717.svg?logo=github&logoColor=white[GitHub, width=250]]
+
+| link:https://yew-1.netlify.app/[image:https://api.netlify.com/api/v1/badges/8d0e4ac9-0be6-4f64-a1b6-5043a4dc2b3e/deploy-status[Netlify, width=250]] link:https://yew-1.netlify.app/[image:https://api.netlify.com/api/v1/badges/8d0e4ac9-0be6-4f64-a1b6-5043a4dc2b3e/deploy-status[Netlify, width=250]] link:https://yew-1.netlify.app/[image:https://api.netlify.com/api/v1/badges/8d0e4ac9-0be6-4f64-a1b6-5043a4dc2b3e/deploy-status[Netlify, width=250]]
+
+|===
+
+=== Contributing
+
+We welcome contributions to enhance this repository! To contribute, please follow the link:./CONTRIBUTING.adoc[`CONTRIBUTING.adoc`] file guidelines (TODO). Thank you for helping make this project better!
+
+=== License
+
+This project is licensed under the link:https://opensource.org/license/mit/[MIT license]. For more details, You can refer to the link:./LICENSE[`licence`] file.
+
+=== Star History
+
+link:https://star-history.com/#wiseaidev/rust-yew-book&Date[image:https://api.star-history.com/svg?repos=wiseaidev/rust-yew-book&type=Date[Star History Chart]]
